@@ -64,6 +64,6 @@ public class BooleanSearchEngine implements SearchEngine {
         }
 
 
-        return pageEntryResult;
+        return new ArrayList<>(listMap.get(word.toLowerCase()));
     }
 }
